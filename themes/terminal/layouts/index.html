@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <div class="leader">
+    <img src="me.jpg" class="myimage">
+    <div>
+      Hello World 👋 <br>
+      Welcome to my homepage.
+    </div>
+  </div>
+
+  <br>
+  <h2>About</h2>
+  I’m a Software Developer working at <a class="no-underline text-grey-dark" href="https://zerodha.com/products">Zerodha Tech</a>. 
+  <br>
+  <br>
+  <h2>Social</h2>
+  <table>
+  <tr><td>github</td> <td><a href="https://github.com/rhnvrm">https://github.com/rhnvrm</a></td></tr>
+  <tr><td>keybase</td> <td><a href="https://keybase.io/rhnvrm">https://keybase.io/rhnvrm</a></td></tr>
+  <tr><td>twitter</td> <td><a href="https://twitter.com/rhnvrm">https://twitter.com/rhnvrm</a></td></tr>
+  <tr><td>linkedin</td> <td><a href="https://www.linkedin.com/in/rhnvrm/">https://www.linkedin.com/in/rhnvrm/</a></td></tr>
+  <tr><td>youtube</td> <td><a href="https://www.youtube.com/user/TheRohanVerma">https://www.youtube.com/user/TheRohanVerma</a></td></tr>
+  </table>
+
+  <h2>Projects</h2>
+
+  My latest sideproject is <a class="no-underline text-grey-dark" href="https://upi.link/">upi.link</a>, a small and nifty
+  programmable UPI shortlink generator. 
+
+  <br>
+  <br>
+
+  <h2>Blog</h2>
+
+  You can read my <a class="no-underline text-grey-dark" href="/blog">blog</a> where 
+  I try to write about what I am doing and things I find interesting. I have organized my blog using categories
+  and tags. You can navigate through my blog by using them, or if you prefer to view by date, you can visit
+  <a href="blog_list">the blog listing page</a>.
+  <br>
+  <br>
+
+  <section>
+    <b>categories</b>: 
+    {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+      <a href="{{.Permalink}}">{{lower .Title}}</a>
+    {{end}}
+    <br><br>
+    <b>tags</b>: 
+    {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+      <a href="{{.Permalink}}">{{lower .Title}}</a>
+    {{end}}
+  </section>
+
+  <br>
+  
+  My blog is also available through <a href="https://rohanverma.net/blog/index.xml">[RSS]</a>
+
+{{ end }} -->
