@@ -18,7 +18,7 @@ div.social{
 }
 nav.social{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .myimage{
     border-radius: 100%;
