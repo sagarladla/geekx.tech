@@ -37,6 +37,10 @@ paginate = 5
         name = "Blog"
         url = "/blog"
       [[languages.en.menu.main]]
+        identifier = "email"
+        name = "Email"
+        url = "/email"
+      [[languages.en.menu.main]]
         identifier = "search"
         name = "Search"
         url = "/search"

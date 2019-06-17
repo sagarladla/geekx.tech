@@ -1,12 +1,33 @@
 {{ define "main" }}
-
-  <div class="leader">
+  
+  <div>
     <table class="mytable">
-      <tr>
-        <th class="mytable"><img src="me.jpg"></th>
-        <td>&lt; Hello World &gt;</td>
-      </tr>
+        <tr>
+          <th class="th"><img src="me.jpg" class="myimage"></th>
+          <td class="td">_____{ Hello World }_____<br>=========================<br>Welcome to my wonderland.</td>
+        </tr>
     </table>
   </div>
+  <br>
+  <h4>#### About<br>==========</h4>
+  <p>I'm a software developer having enough experience in coding with bit of taste in 
+  AI, ML and Natural Language Processing(NLP).</p>
 
-{{ end }}
+  <br><br>
+  <h4>#### Social<br>===========</h4>
+  <table class="mytable">
+    <tr>
+      <td class="td"><a href="https://www.linkedin.com/in/sagarladla/"><img class="icon" src="icons/linkedin.png">LinkedIn</a></td>
+      <td class="td"><a href="https://github.com/sagarladla"><img class="icon" src="icons/github.png">GitHub</a></td>
+      <td class="td"><a href="https://www.youtube.com/channel/UCSvoy3xu6iTGtl2OP9s-yPQ"><img class="icon" src="icons/youtube.png">YouTube</a></td>
+      <td class="td"><a href="https://keybase.io/sagarladla"><img class="icon keybase" src="icons/keybase.png">Keybase</a></td>
+      <td class="td"><a href="https://bitbucket.org/sagarladla/"><img class="icon" src="icons/bitbucket.png">BitBucket</a></td>
+    </tr>
+  </table>
+
+  <br><br>
+  <h4>#### Blog<br>=========</h4>
+  <p>I have written blogs about things I have done and explored as my passion in various fields of computer science
+  and technologies. You can read them in <a href="/blog">Blog</a> section of my <i>wonderland</i>. You can also see in <a href="/blog_list">datewise sorted manner</a>.</p>
+
+  {{ end }}
