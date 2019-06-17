@@ -1,4 +1,4 @@
-baseurl = "https://geekx.tech"
+baseurl = "https://geekx.tech/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -29,7 +29,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Sagar Ladla"
-      logoHomeLink = "https://geekx.tech"
+      logoHomeLink = "https://geekx.tech/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
