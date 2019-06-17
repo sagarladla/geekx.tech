@@ -5,6 +5,8 @@ a:hover{
     background-color: white;
     color: black;
 }
+span.blog{
+}
 .hover_menu:hover{
     cursor: pointer;
 }
