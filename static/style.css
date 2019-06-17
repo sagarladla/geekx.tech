@@ -9,18 +9,21 @@ a:hover{
     border-radius: 100%;
     width: 125px;
     height: 125px;
-    float: right;
     border: 2px solid white;
+    -webkit-filter: drop-shadow(2px 3px 2px grey);
+    filter: drop-shadow(2px 3px 2px grey);
 
 }
 .mytable{
     border: 0pt;
-    width: 50;
     margin-left: auto;
     margin-right: auto;
 }
 .th,.td{
     border: 0;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
 }
 .keybase{
     width: 33px;
