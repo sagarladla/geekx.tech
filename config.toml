@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "geekx.tech"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
