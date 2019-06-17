@@ -12,11 +12,12 @@ a:hover{
 }
 .mytable{
     border: 0pt;
-    align-self: center;
+    width: 50;
+    margin-left: auto;
+    margin-right: auto;
 }
 .th,.td{
     border: 0;
-    /* text-align: center; */
 }
 .keybase{
     width: 33px;
