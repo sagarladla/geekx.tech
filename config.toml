@@ -5,7 +5,7 @@ paginate = 5
 
 [params]
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "blog"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "blue"
   # if you set this to 0, only submenu trigger will be visible
@@ -39,7 +39,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "email"
         name = "Email"
-        url = "/email"
+        url = "mailto:help@geekx.tech"
       [[languages.en.menu.main]]
         identifier = "search"
         name = "Search"
