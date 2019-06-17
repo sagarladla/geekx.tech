@@ -6,6 +6,7 @@ a:hover{
     color: black;
 }
 span.blog{
+    display: inline-block;
 }
 .hover_menu:hover{
     cursor: pointer;
