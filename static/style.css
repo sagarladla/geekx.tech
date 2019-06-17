@@ -1,3 +1,6 @@
+small{
+    font-weight: 400;
+}
 a:hover{
     background-color: white;
     color: black;
@@ -5,25 +8,44 @@ a:hover{
 .hover_menu:hover{
     cursor: pointer;
 }
+.leader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.social{
+    display: inline-block;
+}
+nav.social{
+    display: flex;
+    justify-content: space-between;
+}
 .myimage{
     border-radius: 100%;
-    width: 125px;
-    height: 125px;
+    margin-right: 10px;
+    width: 90px;
+    height: 90px;
     border: 2px solid white;
     -webkit-filter: drop-shadow(2px 3px 2px grey);
     filter: drop-shadow(2px 3px 2px grey);
 
 }
 .mytable{
+    padding-top: 0%;
+    padding-bottom: 0%;
     border: 0pt;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
 }
 .th,.td{
+    padding-top: 0%;
+    padding-bottom: 0%;
     border: 0;
     margin-right: auto;
     margin-left: auto;
-    float: left;
+    justify-content: center;
+    align-items: center;
 }
 .keybase{
     width: 33px;
