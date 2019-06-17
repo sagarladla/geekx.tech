@@ -2,6 +2,9 @@ a:hover{
     background-color: white;
     color: black;
 }
+.hover_menu:hover{
+    cursor: pointer;
+}
 .myimage{
     border-radius: 100%;
     width: 125px;

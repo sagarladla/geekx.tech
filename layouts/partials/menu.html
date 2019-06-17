@@ -7,10 +7,10 @@
         {{ end }}
       {{ end }}
       {{ if gt (len $.Site.Menus.main) $.Site.Params.showMenuItems }}
-        <ul class="menu__sub-inner">
+        <ul class="menu__sub-inner hover_menu">
           <li class="menu__sub-inner-more-trigger hover_menu">{{ $.Site.Params.MenuMore }} ▾</li>
 
-          <ul class="menu__sub-inner-more hidden">
+          <ul class="menu__sub-inner-more hidden hover_menu">
             {{ range last (sub (len $.Site.Menus.main) $.Site.Params.showMenuItems) $.Site.Menus.main }}
               {{ if not .HasChildren }}
                 <li><a class="hover_menu" href="{{ .URL }}">{{ .Name }}</a></li>
@@ -28,7 +28,7 @@
     {{ end }}
   </ul>
 
-  <ul class="menu__inner menu__inner--mobile">
+  <ul class="menu__inner menu__inner--mobile hover_menu">
     {{ range $.Site.Menus.main }}
       {{ if not .HasChildren }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
