@@ -1,6 +1,10 @@
 small{
     font-weight: 400;
 }
+code.hellocap{
+    /*background-color: none;*/
+    color: white;
+}
 a:hover{
     background-color: white;
     color: black;
