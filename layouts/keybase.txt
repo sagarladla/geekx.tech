@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sagarladla
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://geekx.tech
+  * I am sagarladla (https://keybase.io/sagarladla) on keybase.
+  * I have a public key ASARehwes41Z5oMxLQQHkgqts_xZxnadWdSr9GYJHwllfAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120117a1c1eb38d59e683312d0407920aadb3fc59c6769d59d4abf466091f09657c0a",
+      "host": "keybase.io",
+      "kid": "0120117a1c1eb38d59e683312d0407920aadb3fc59c6769d59d4abf466091f09657c0a",
+      "uid": "8f76f706ae0a69a14f506b95c94ebf19",
+      "username": "sagarladla"
+    },
+    "merkle_root": {
+      "ctime": 1560816695,
+      "hash": "8181ed006e50f2254831e8cadfd33a5356190a8b17a3afd58cc7e3e66cde2fd1cd63b2e0204c5b6014653fecd5cc2752f096d6d349575d39b7c9bc65f2134edd",
+      "hash_meta": "cd0e0dc8015f254ab5eb18f0ff40128dcf66a9119c534da51a86ac963e052c4b",
+      "seqno": 5589773
+    },
+    "service": {
+      "entropy": "UZlIXbyxpMdov+yqSnHJmdu3",
+      "hostname": "geekx.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1560816730,
+  "expire_in": 504576000,
+  "prev": "4beeb205e0008195fd486b9e9acefda2d81be4094451df96ad4747b5681666d0",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEXocHrONWeaDMS0EB5IKrbP8WcZ2nVnUq/RmCR8JZXwKp3BheWxvYWTESpcCEsQgS+6yBeAAgZX9SGuems79otgb5AlEUd+WrUdHtWgWZtDEIMWWGOSXjk8T3FoZpIkxoMYUoy/tg41UhwArDNf1AJztAgHCo3NpZ8RAhPUYOBI/yAOoMEBRHek2DvdkPeLdFkOw81QED4PXaKqmDdiJJlw03NP1MtTmFrL2piG2vnVA2a8vYXBNtxgXCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIC8hNT8N1X/FMa5L29yGT78IjfyGumwqNAE20l1posIEo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sagarladla
+
+==================================================================
