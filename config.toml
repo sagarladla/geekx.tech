@@ -2,6 +2,7 @@ baseurl = "https://geekx.tech/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+googleAnalytics = "UA-126638120-1"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -43,4 +44,4 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "search"
         name = "Search"
-        url = "/search"
+        url = "/search/"
