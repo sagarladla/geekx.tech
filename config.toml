@@ -16,7 +16,7 @@ googleAnalytics = "UA-126638120-1"
   # center theme with default width
   centerTheme = true
   # set a custom favicon (default is a `themeColor` square)
-   favicon = "hackerEmblem.ico"
+  favicon = "hackerEmblem.ico"
 
 [languages]
   [languages.en]
