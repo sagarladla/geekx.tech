@@ -1,7 +1,7 @@
 +++
 title = "Master Career"
 date = "20-07-2019"
-author = "Sagar Ladla(sagarladla)
+author = "Sagar Ladla(sagarladla)"
 +++
 # Studing Cyber Security at GFSU
 
