@@ -40,7 +40,7 @@ googleAnalytics = "UA-126638120-1"
       [[languages.en.menu.main]]
         identifier = "email"
         name = "Email"
-        url = "mailto:help@geekx.tech"
+        url = "mailto:sagarladla@geekx.tech"
       [[languages.en.menu.main]]
         identifier = "search"
         name = "Search"
