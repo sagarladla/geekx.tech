@@ -36,7 +36,7 @@ googleAnalytics = "UA-126638120-1"
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "blogs.geekx.tech"
+        url = "/blog/"
       [[languages.en.menu.main]]
         identifier = "email"
         name = "Email"
