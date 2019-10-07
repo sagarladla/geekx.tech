@@ -84,3 +84,6 @@ a.read-more:hover, a.button:hover{
 a.read-more, a.button{
     text-decoration: underline;
 }
+.dev{
+    background-color: white;
+}
