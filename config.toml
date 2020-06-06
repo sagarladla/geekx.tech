@@ -4,6 +4,7 @@ title = "sagarladla" # Homepage title and page title suffix
 paginate = 11 # Number of posts to show before paginating
 copyright = "Copyright &copy; Sagar Ladla. Generated using <a target='_blank' rel='external' href='https://after-dark.habd.as/'>After Dark v9.2.2</a>. Licensed under <a target='_blank' rel='external noopener license' href='https://creativecommons.org/licenses/by-nd/4.0/'>CC-BY-ND-4.0</a>." # Optional, remove to suppress copyright notices
 toc = true
+disableLiveReload = true
 
 
 # Controls default theme and theme components
