@@ -1,0 +1,89 @@
+small{
+    font-weight: 400;
+}
+code.hellocap{
+    /*background-color: none;*/
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+span.blog{
+    display: inline-block;
+}
+.hover_menu:hover{
+    cursor: pointer;
+}
+.leader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.social{
+    display: inline-block;
+}
+nav.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.myimage{
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid white;
+    -webkit-filter: drop-shadow(2px 3px 2px grey);
+    filter: drop-shadow(2px 3px 2px grey);
+
+}
+.mytable{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: 0pt;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.th,.td{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: 0;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+.keybase{
+    width: 33px;
+    height: 32px;
+}
+.icon:hover{
+    transform: rotate(-15deg);
+}
+.mytablec{
+    border: 0;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    padding: 0px;
+    border-spacing: 0;
+}
+.tdc1{
+    border: 0;
+    padding-bottom: 0px;
+}
+.tdc2{
+    border: 0;
+    padding-top: 0px;
+}
+a.read-more:hover, a.button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0%;
+}
+a.read-more, a.button{
+    text-decoration: underline;
+}
+.dev{
+    background-color: white;
+}
